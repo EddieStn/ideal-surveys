@@ -118,3 +118,22 @@ p, li {
     font-size: 1rem;
     color: #666;
 }
+
+
+/* services */
+
+
+.service-card {
+    transition: transform 0.3s ease-in-out;
+}
+.service-card:hover {
+    transform: scale(1.05);
+}
+.service-card .card-body {
+    text-align: center;
+}
+.service-card .card-icon {
+    font-size: 4rem;
+    color: #007bff;
+    margin-bottom: 20px;
+}
