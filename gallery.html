@@ -9,6 +9,144 @@
 
   <body>
     <header id="navbar-placeholder"></header>
+    <div class="container my-5">
+      <h1 class="text-center mb-4">Construction Projects Gallery</h1>
+      <div class="row g-3">
+        <!-- Project 1 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="./images/building1.webp"
+              class="card-img-top gallery-image"
+              alt="Project 1 Image"
+              data-bs-toggle="modal"
+              data-bs-target="#project1Modal"
+            />
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="./images/building2.webp"
+              class="card-img-top gallery-image"
+              alt="Project 2 Image"
+              data-bs-toggle="modal"
+              data-bs-target="#project2Modal"
+            />
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="./images/building3.webp"
+              class="card-img-top gallery-image"
+              alt="Project 3 Image"
+              data-bs-toggle="modal"
+              data-bs-target="#project3Modal"
+            />
+          </div>
+        </div>
+        <!-- Add more projects as needed -->
+      </div>
+    </div>
+
+    <!-- Modal for Project 1 -->
+    <div
+      class="modal fade"
+      id="project1Modal"
+      tabindex="-1"
+      aria-labelledby="project1ModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="project1ModalLabel">
+              Project 1: Residential Building
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="./images/building1.webp"
+              class="img-fluid"
+              alt="Project 1 Image"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for Project 2 -->
+    <div
+      class="modal fade"
+      id="project2Modal"
+      tabindex="-1"
+      aria-labelledby="project2ModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="project2ModalLabel">
+              Project 2: Commercial Complex
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="./images/building2.webp"
+              class="img-fluid"
+              alt="Project 2 Image"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for Project 3 -->
+    <div
+      class="modal fade"
+      id="project3Modal"
+      tabindex="-1"
+      aria-labelledby="project3ModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="project3ModalLabel">
+              Project 3: Industrial Facility
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="./images/building3.webp  "
+              class="img-fluid"
+              alt="Project 3 Image"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
 
     <footer id="footer-placeholder"></footer>
 

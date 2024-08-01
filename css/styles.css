@@ -41,6 +41,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-y: scroll;
 }
 
 li {
@@ -87,4 +88,33 @@ p, li {
 .herobtn:hover {
     background: #333;
     color: #fff;
+}
+
+
+/* About page styles */
+
+
+.team-member {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.team-member img:hover {
+    transform: scale(1.1);
+}
+.team-member h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+.team-member p {
+    font-size: 1rem;
+    color: #666;
 }
